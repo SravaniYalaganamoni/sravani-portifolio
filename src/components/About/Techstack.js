@@ -1,62 +1,50 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiNextdotjs,
-  SiMysql,
-  SiTypescript,
-  SiHtml5,
-} from "react-icons/si";
+import "./ProfessionalSkills.css"; // Create and style this CSS file
+
+const skills = [
+  { name: "Verilog", level: "Advanced" },
+  { name: "SystemVerilog", level: "Advanced" },
+  { name: "UVM", level: "Intermediate" },
+  { name: "C++", level: "Intermediate" },
+  { name: "Python", level: "Advanced" },
+  { name: "MATLAB", level: "Intermediate" },
+  { name: "TCL", level: "Intermediate" },
+  { name: "C", level: "Intermediate" },
+  { name: "Perl", level: "Beginner" },
+  { name: "Machine Learning", level: "Intermediate" },
+  { name: "SPICE", level: "Intermediate" },
+  { name: "Linux", level: "Intermediate" },
+  { name: "Git", level: "Intermediate" },
+  { name: "Java", level: "Beginner" }
+];
+
+const getLevelClass = (level) => {
+  switch (level) {
+    case "Advanced": return "level-advanced";
+    case "Intermediate": return "level-intermediate";
+    case "Beginner": return "level-beginner";
+    default: return "";
+  }
+};
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
-        </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-    </Row>
+    <div className="skills-section">
+      <h2 className="skills-title"> </h2>
+      <p className="skills-description">
+        These are the technologies and programming languages I&apos;ve worked with and continue to develop expertise in.
+      </p>
+      <div className="skills-grid">
+        {skills.map((skill, i) => (
+          <div key={i} className="skill-card">
+            <span className="skill-name">{skill.name}</span>
+            <span className={`skill-level ${getLevelClass(skill.level)}`}>
+              {skill.level}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 

@@ -8,32 +8,37 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Uday G </span>
-            from <span className="purple"> Bengaluru, India.</span>
+            {/* <<< CHANGED */}
+            Hi Everyone, I am <span className="purple">Sravani Yalaganamoni</span> from <span className="purple"> Fresno, California (originally Hyderabad, India).</span>
             <br />
-            I'm currently learning UI Designs, Web development and Machinle learning.
+            I'm a graduate student in Computer Engineering specializing in VLSI testing, low-power circuit design, and verification.
             <br />
-            I'm expected to graduate from Presidency University, Bengaluru in 2025.
+            I am expected to graduate from California State University, Fresno in December 2025.
+            <br />
+            I am passionate about digital and analog circuit design, ASIC/FPGA synthesis, and exploring the intersection of hardware and AI.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from engineering, some other activities I love:
+            {/* >>> */}
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring the latest in semiconductor technology
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Anime
+              <ImPointRight /> Traveling and photography
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading Self-Help Books
+              <ImPointRight /> Reading books on personal growth and innovation
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive for progress, not perfection."{" "}
+            {/* <<< CHANGED */}
+            "Continuous learning and curiosity drive true innovation." 
+            {/* >>> */}
           </p>
-          <footer className="blockquote-footer">ChatGPT</footer>
+          <footer className="blockquote-footer">Sravani Yalaganamoni</footer>
         </blockquote>
       </Card.Body>
     </Card>

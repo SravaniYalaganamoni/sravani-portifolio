@@ -1,33 +1,70 @@
 # My Personal Portfolio
 
-Welcome to my personal portfolio! This website showcases my skills, projects, and experiences as a Software Engineer, Web Developer, and Machine Learning Enthusiast.
+Welcome to my personal portfolio! This website highlights my skills, academic work, and hands-on experience in **VLSI Design, Digital Systems, and Machine Learning**.
 
 
-## About Me
+##  About Me
 
-I am a passionate Software Engineer and Open-Source Contributor with experience in web development, AI tools, and cryptocurrency. I have expertise in JavaScript, Linux, and a variety of programming languages and frameworks. My goal is to advance my skills, contribute to open-source projects, and work on innovative solutions in AI, web development, and blockchain technologies.
+I am a graduate student in **Electrical and Computer Engineering** with strong experience in:
 
-## Technologies Used
+- VLSI Design & Low-Power Circuits  
+- Digital Systems & RTL Design  
+- ASIC/FPGA Design Flow  
+- DFT & Scan Insertion  
+- DSP-based hardware design  
+- Machine Learning fundamentals  
 
-This portfolio is built using the following technologies:
+I work extensively with modern EDA tools and hardware design environments. My interests revolve around designing **efficient, testable, and high-performance digital systems**. My long-term goal is to contribute to advanced semiconductor research and become a VLSI/ASIC Design Engineer.
 
-- HTML
-- CSS
-- JavaScript
-- Node.js
-- React
-- Next.js
-- Git
 
-## Contact
+##  Technologies & Tools
 
-Feel free to reach out to me for any inquiries or collaborations:
+### **Frontend / Web**
+- HTML  
+- CSS  
+- JavaScript  
+- React  
+- Next.js  
 
-- **Email**: [ud4yg@yandex.com](mailto:ud4yg@yandex.com)
-- **LinkedIn**: [Uday G](https://www.linkedin.com/in/uday-g-601ba9266/)
-- **GitHub**: [oxBinaryBrain](https://github.com/oxBinaryBrain)
+### **VLSI / Hardware Tools**
+- Cadence Virtuoso  
+- Cadence ADE L / Spectre  
+- Synopsys Design Compiler  
+- Synopsys TetraMAX / DFT  
+- ModelSim  
+- Quartus Prime (Intel FPGA)  
+- DE1-SoC Embedded System Design  
 
+### **Programming / Scripting**
+- Verilog HDL  
+- MATLAB  
+- Python  
+- C  
+- Git & GitHub  
 
 ---
 
-Thank you for visiting my portfolio! I hope you find it informative and inspiring.
+##  Projects Highlight
+A few of my major academic and VLSI projects include:
+
+- **Test-Aware Low-Power Clock Gating in DSP Blocks**  
+- **256-Bit Multiplier RTL + Synthesis**  
+- **Transmission Gate Logic Based Full Adder (TGL)**  
+- **6T & 14T Transistor-Level Adder Optimization**  
+- **DCNN-based Image Classification in MATLAB**  
+- **DE1-SoC Reaction Game using Nios-II**  
+- **Floating Point Unit (FPU) Synthesis (Add, Mul, Div, Sqrt)**  
+
+More projects are available throughout this portfolio.
+
+
+##  Contact
+
+Feel free to reach out for opportunities, collaborations, or project discussions:
+
+- **Email:** [sravaniyalaganamoni@gmail.com](mailto:sravaniyalaganamoni@gmail.com)  
+- **LinkedIn:** [Sravani Yalaganamoni](https://www.linkedin.com/in/sravani-yalaganamoni)  
+- **GitHub:** [SravaniYalaganamoni](https://github.com/SravaniYalaganamoni)
+
+
+Thank you for visiting my portfolio! I hope it provides a clear view of my technical expertise and engineering journey.

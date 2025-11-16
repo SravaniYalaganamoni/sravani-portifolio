@@ -18,36 +18,32 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I have developed a strong interest in programming and have learned at least something, I believe. 🤷‍♂️
+              {/* <<< CHANGED */}
+              I am a graduate student in Computer Engineering at California State University, Fresno, specializing in VLSI testing, low-power circuit design, and verification.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I am proficient in industry-standard languages like
               <i>
-                <b className="purple"> Python, Javascript and C++ </b>
+                <b className="purple"> Verilog, SystemVerilog, Python, C++, and Java. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My core interests include digital and analog circuit design, ASIC/FPGA synthesis, and low-power hardware architectures.
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  VLSI Testing, RTL-to-GDSII Implementation, and Digital System Design.
+                </b>
+                <br />
+                I have hands-on experience with leading EDA tools such as
+                <b className="purple">
+                  {" "}Synopsys Design Compiler, PrimeTime, Cadence Innovus, Virtuoso, and ModelSim.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I am always eager to collaborate on projects involving
+              <b className="purple"> ASIC/FPGA design, verification, and semiconductor hardware innovation.</b>
+              {/* >>> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -65,7 +61,9 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/oxBinaryBrain"
+                  // <<< CHANGED
+                  href="https://github.com/SravaniYalaganamoni"
+                  // >>>
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +73,9 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://x.com/UdayG6389896490"
+                  // <<< CHANGED
+                  href="https://x.com/"
+                  // >>>
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -85,7 +85,9 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/uday-g-601ba9266/"
+                  // <<< CHANGED
+                  href="https://www.linkedin.com/in/sravani-yalaganamoni/"
+                  // >>>
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

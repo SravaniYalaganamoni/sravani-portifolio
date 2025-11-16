@@ -13,16 +13,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by UDAY</h3>
+          <h3>Designed and Developed by Sravani</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} UG</h3>
+          <h3>Copyright © {year} SY</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/oxBinaryBrain"
+                href="https://github.com/SravaniYalaganamoni"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/uday-g-601ba9266/"
+                href="https://www.linkedin.com/in/sravani-yalaganamoni"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

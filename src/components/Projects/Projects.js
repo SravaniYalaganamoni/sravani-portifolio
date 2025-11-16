@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import oralcancer from "../../Assets/Projects/oralcancer.png";
-import paddle from "../../Assets/Projects/paddle.png";
-import objecttrack from "../../Assets/Projects/objecttrack.png";
-import fraud_Detection from "../../Assets/Projects/fraud_Detection.png";
-import ccfraud from "../../Assets/Projects/ccfraud.png";
-import LMmodel from "../../Assets/Projects/LMmodel.png";
+// Place your own project images in Assets/Projects and import here
+import sramBist from "../../Assets/Projects/sram_bist.png";
+import firFilter from "../../Assets/Projects/fir_filter.png";
+import adder from "../../Assets/Projects/adder.png";
+import fpu from "../../Assets/Projects/fpu.png";
+import alu from "../../Assets/Projects/alu.png";
+import transistorAdder from "../../Assets/Projects/transistor_adder.png";
 
 function Projects() {
   return (
@@ -15,7 +16,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,63 +24,61 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={fraud_Detection}
+              imgPath={sramBist}
               isBlog={false}
-              title="Income_Tax_Fraud_Detection"
-              description="Developed a system to detect fraudulent activities in income tax filings using AI and machine learning techniques. Implemented data preprocessing, feature engineering, and trained models to identify anomalies and suspicious patterns."
-              ghLink="https://github.com/oxBinaryBrain/An_Income_Tax_Fraud_Detection_Using_AI-ML"
+              title="32-bit RISC-V Processor with Integrated Floating-Point Unit"
+              description="The design, implementation, and physical layout of a pipelined 32-bit RISC-V processor with an integrated floating-point arithmetic unit (FPU)"
+              ghLink="https://github.com/SravaniYalaganamoni/32-bit-RISC-V-Processor-with-Integrated-Floating-Point-Unit" // Add your GitHub link if available
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={LMmodel}
+              imgPath={firFilter}
               isBlog={false}
-              title="Multilingual Chatbot "
-              description="The multilingual_chatbot function detects the language of the user's input, translates it to English (if necessary), generates a response in English, and then translates the response back to the user's original language."
-              ghLink="https://github.com/oxBinaryBrain/Multilingual_chatbot"
+              title="Test-Aware Low Power Clock Gating in DSP Blocks"
+              description="Developed a 7-tap FIR filter for DSP applications with clock gating and scan chain insertion to optimize power efficiency and fault coverage. Achieved 100% fault coverage, reduced power to 247.8 µW, and maintained timing closure."
+              ghLink="https://github.com/SravaniYalaganamoni/Test-Aware-Low-Power-Clock-Gating-in-DSP-Blocks" // Add your GitHub link if available
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={objecttrack}
+              imgPath={adder}
               isBlog={false}
-              title="Object Tracking using OpenCV and KCF Tracker"
-              description="Object tracking is the process of locating a moving object (or multiple objects) over time in a video stream. This project utilizes the KCF algorithm, which is a robust and efficient method for tracking objects in video sequences."
-              ghLink="https://github.com/oxBinaryBrain/Object_Tracking"            
+              title="Low-Power Full Adder Design using TGL"
+              description="Designed and compared a low-power full adder using Transmission Gate Logic (TGL) against a CMOS-based full adder. Achieved a 15% reduction in power and 10% reduction in delay, validated with Synopsys Design Compiler and PrimeTime."
+              ghLink="https://github.com/SravaniYalaganamoni/Low-Power-Full-Adder-Design-using-TGL" // Add your GitHub link if available
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={oralcancer}
+              imgPath={transistorAdder}
               isBlog={false}
-              title="Oral Cancer Detection using Neural Networks"
-              description="Developing a machine learning model to detect and classify oral cancer levels from images. It involves data collection, preprocessing, feature extraction, selection, and model building using techniques like CNNs."
-              ghLink="https://github.com/oxBinaryBrain/Oral_Cancer_Classification"
+              title="Transistor-Level Design and Optimization of 6T and 14T Adders"
+              description="Performed schematic design, layout creation, and post-layout simulation in Cadence Virtuoso for 6T and 14T adders. Achieved 99.98% delay reduction in 6T adder and 40.01% improvement in 14T adder through transistor sizing techniques."
+              ghLink="https://github.com/SravaniYalaganamoni/Transistor-Level-Design-and-Optimization-of-6T-and-14T-Adders" // Add your GitHub link if available
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ccfraud}
+              imgPath={fpu}
               isBlog={false}
-              title="CC_Fraud_Detection"
-              description="This is a simple machine learning model which analyzes whether a credit card transaction is fraudlent or not. The dataset is downloaded from kaggle, check the readme for link to dataset."
-              ghLink="https://github.com/oxBinaryBrain/CC-Fraud-Detection"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=xoxo" 
+              title="Floating-Point Unit (FPU) Synthesis and Physical Design"
+              description="Synthesized a Verilog-based FPU using Synopsys Design Compiler and completed full physical design in Cadence Innovus. Achieved post-route timing closure and zero DRC/LVS violations."
+              ghLink="https://github.com/SravaniYalaganamoni/Floating-Point-Unit-FPU-Synthesis-and-Physical-Design" // Add your GitHub link if available
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={paddle}
+              imgPath={alu}
               isBlog={false}
-              title="Paddle Detection"
-              description="Object Detection toolkit based on PaddlePaddle. It supports object detection, instance segmentation, multiple object tracking and real-time multi-person keypoint detection."
-              ghLink="https://github.com/oxBinaryBrain/PaddleDetection"
-              // demoLink="https://xoxo.com"     
+              title="Design, Verification, and Physical Implementation of an 8-bit Ripple Carry Adder"
+              description="This project focuses on the design, verification, and implementation of an 8-bit Ripple Carry Adder(RCA) using Verilog. The design is simulated in ModelSim, synthesized in Synopsys Design Compiler, and physically implemented using Cadence Innovus.."
+              ghLink="https://github.com/SravaniYalaganamoni/Design-Verification-and-Physical-Implementation-of-an-8-bit-Ripple-Carry-Adder" // Add your GitHub link if available
             />
           </Col>
         </Row>

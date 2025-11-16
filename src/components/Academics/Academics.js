@@ -4,38 +4,36 @@ import Particle from "../Particle";
 
 const academicsData = [
   {
-    title: "Bachelor of Technology",
-    institution: "Presidency University, Bengaluru",
-    duration: "2021 - Present",
-    cgpa: "In Progress",
+    title: "Master of Science in Electrical and Computer Engineering",
+    institution: "California State University, Fresno, CA, USA",
+    duration: "Aug 2023 - Dec 2025",
+    cgpa: "3.5 / 4.0",
     details: [
-      "Computer Science and Technology",
-      "Specialization in AI & ML",
-      "Key courses: Data Structures, Algorithms, Machine Learning",
-      "Research Projects in AI/ML",
+      "Relevant coursework: Semiconductor Manufacturing, VLSI Design, VLSI Testing, Machine Learning, Cybersecurity, Probability Theory",
+      "Projects: Adaptive Test Pattern Generation for SRAM BIST, Test-Aware Low Power Clock Gating in DSP Blocks, Floating-Point Unit Synthesis",
+      "Hands-on experience with Synopsys and Cadence EDA tools",
     ],
   },
   {
-    title: "Pre-University College",
-    institution: "MES Kishora Kendra, Bengaluru",
-    duration: "2019 - 2021",
-    cgpa: "8.5",
+    title: "Bachelor of Technology in Electronics and Communication Engineering",
+    institution: "Malla Reddy Engineering College, Hyderabad, India",
+    duration: "June 2018 - May 2022",
+    cgpa: "8.8 / 10",
     details: [
-      "Physics, Maths, Chemistry, Computer Science",
-      "Pre-University Completion",
-      "Advanced Mathematics and Computer Science",
+      "Relevant coursework: Computer Architecture, Digital System Design, CMOS Design, Microcontrollers & Microprocessors, Electronic Device Circuits",
+      "Final year project in digital circuit design",
+      "Active participation in technical workshops and seminars",
     ],
   },
   {
-    title: "Secondary High School",
-    institution: "Nelamangala, Bengaluru",
-    duration: "2012 - 2019",
-    cgpa: "9.09",
+    title: "Secondary Education (12th Grade)",
+    institution: "Board of Intermediate Education, Telangana, India",
+    duration: "2016 - 2018",
+    cgpa: "9.67 / 10",
     details: [
-      "Based on NCERT",
-      "Secondary Education Completion",
-      "Strong foundation in Science"
-      
+      "Focus: Mathematics, Physics, Chemistry",
+      "Strong foundation in Science and Mathematics",
+      "Awarded for academic excellence",
     ],
   },
 ];

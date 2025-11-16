@@ -30,9 +30,11 @@ const Contact = () => {
         
         {/* Subtitle with proper line break */}
         <p className="subtitle">
-          I'm currently open for freelance opportunities and interesting projects.
+          {/* <<< CHANGED */}
+          I'm currently open to full-time opportunities, internships, and research collaborations in VLSI design, verification, and semiconductor engineering.
           <br />
-          Let's build something amazing together!
+          Let's connect and work on innovative hardware solutions together!
+          {/* >>> */}
         </p>
       </div>
 
@@ -44,7 +46,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="John Doe"
+              placeholder="Sravani Yalaganamoni" // <<< CHANGED
               value={formData.name}
               onChange={handleChange}
               required
@@ -56,7 +58,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              placeholder="john@example.com"
+              placeholder="ysravaniyadav2@gmail.com" // <<< CHANGED
               value={formData.email}
               onChange={handleChange}
               required
@@ -67,7 +69,7 @@ const Contact = () => {
             <label>Your Message</label>
             <textarea
               name="message"
-              placeholder="Hi, I'd like to talk about..."
+              placeholder="Hi, I'd like to talk about..." // unchanged
               value={formData.message}
               onChange={handleChange}
               required
@@ -82,31 +84,37 @@ const Contact = () => {
 
       {/* Direct Email Contact */}
       <p className="direct-contact-text">Or reach me directly at:</p>
-      <a href="mailto:ud4yg@yandex.com" className="email-button">
-        📧 ud4yg@yandex.com
+      {/* <<< CHANGED */}
+      <a href="mailto:ysravaniyadav2@gmail.com" className="email-button">
+        📧 ysravaniyadav2@gmail.com
       </a>
+      {/* >>> */}
 
       {/* Social Media Buttons with Icons */}
       <div className="social-links">
-        <a href="https://github.com/oxBinaryBrain" target="_blank" rel="noopener noreferrer" className="social-button">
+        {/* <<< CHANGED */}
+        <a href="https://github.com/SravaniYalaganamoni" target="_blank" rel="noopener noreferrer" className="social-button">
           <FaGithub size={24} /> GitHub
         </a>
-        <a href="https://www.linkedin.com/in/uday-g-601ba9266/" target="_blank" rel="noopener noreferrer" className="social-button">
+        <a href="https://www.linkedin.com/in/sravani-yalaganamoni/" target="_blank" rel="noopener noreferrer" className="social-button">
           <FaLinkedin size={24} /> LinkedIn
         </a>
-        <a href="mailto:ud4yg@yandex.com" className="social-button">
+        <a href="mailto:ysravaniyadav2@gmail.com" className="social-button">
           <FaEnvelope size={24} /> Email
         </a>
+        {/* >>> */}
       </div>
 
       {/* Footer Section */}
       <div className="footer">
+        {/* <<< CHANGED */}
         <button
           className="star-repo-button"
-          onClick={() => window.open("https://github.com/oxBinaryBrain/Portfolio_V1", "_blank")}
+          onClick={() => window.open("https://github.com/SravaniYalaganamoni/sravani-portifolio", "_blank")}
         >
           ⭐ Star this repo for support
         </button>
+        {/* >>> */}
       </div>
     </div>
   );
