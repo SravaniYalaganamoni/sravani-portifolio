@@ -19,7 +19,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               {/* <<< CHANGED */}
-              I am a graduate student in Computer Engineering at California State University, Fresno, specializing in VLSI testing, low-power circuit design, and verification.
+              I am a graduate student in Electrical & Computer Engineering at California State University, CA,USA, specializing in VLSI testing, low-power circuit design, and verification.
               <br />
               <br />
               I am proficient in industry-standard languages like

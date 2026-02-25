@@ -5,11 +5,11 @@ import Particle from "../Particle";
 const academicsData = [
   {
     title: "Master of Science in Electrical and Computer Engineering",
-    institution: "California State University, Fresno, CA, USA",
-    duration: "Aug 2023 - Dec 2025",
-    cgpa: "3.5 / 4.0",
+    institution: "California State University,  California, USA",
+    duration: "Aug 2023 - May 2026",
+    cgpa: "3.4 / 4.0",
     details: [
-      "Relevant coursework: Semiconductor Manufacturing, VLSI Design, VLSI Testing, Machine Learning, Cybersecurity, Probability Theory",
+      "Relevant coursework: Semiconductor Device Process, VLSI Physical Design, VLSI Testing, Machine Learning, Cybersecurity, Embedded Systems",
       "Projects: Adaptive Test Pattern Generation for SRAM BIST, Test-Aware Low Power Clock Gating in DSP Blocks, Floating-Point Unit Synthesis",
       "Hands-on experience with Synopsys and Cadence EDA tools",
     ],
@@ -18,7 +18,7 @@ const academicsData = [
     title: "Bachelor of Technology in Electronics and Communication Engineering",
     institution: "Malla Reddy Engineering College, Hyderabad, India",
     duration: "June 2018 - May 2022",
-    cgpa: "8.8 / 10",
+    cgpa: "3.5 / 5",
     details: [
       "Relevant coursework: Computer Architecture, Digital System Design, CMOS Design, Microcontrollers & Microprocessors, Electronic Device Circuits",
       "Final year project in digital circuit design",

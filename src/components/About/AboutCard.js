@@ -9,11 +9,11 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             {/* <<< CHANGED */}
-            Hi Everyone, I am <span className="purple">Sravani Yalaganamoni</span> from <span className="purple"> Fresno, California (originally Hyderabad, India).</span>
+            Hi Everyone, I am <span className="purple">Sravani Yalaganamoni</span> from <span className="purple"> San Jose, California (originally Hyderabad, India).</span>
             <br />
-            I'm a graduate student in Computer Engineering specializing in VLSI testing, low-power circuit design, and verification.
+            I'm a graduate student in Electrical and Computer Engineering specializing in VLSI testing, low-power circuit design, and verification.
             <br />
-            I am expected to graduate from California State University, Fresno in December 2025.
+            I am expected to graduate from California State University, in May 2026.
             <br />
             I am passionate about digital and analog circuit design, ASIC/FPGA synthesis, and exploring the intersection of hardware and AI.
             <br />
