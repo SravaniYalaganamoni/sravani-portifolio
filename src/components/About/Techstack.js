@@ -4,18 +4,18 @@ import "./ProfessionalSkills.css"; // Create and style this CSS file
 const skills = [
   { name: "Verilog", level: "Advanced" },
   { name: "SystemVerilog", level: "Advanced" },
-  { name: "UVM", level: "Intermediate" },
-  { name: "C++", level: "Intermediate" },
+  { name: "UVM", level: "Advanced" },
+  { name: "C++", level: "Advanced" },
   { name: "Python", level: "Advanced" },
-  { name: "MATLAB", level: "Intermediate" },
-  { name: "TCL", level: "Intermediate" },
-  { name: "C", level: "Intermediate" },
-  { name: "Perl", level: "Beginner" },
+  { name: "MATLAB", level: "Advanced" },
+  { name: "TCL", level: "Advanced" },
+  { name: "C", level: "Advanced" },
+  { name: "Perl", level: "Advanced" },
   { name: "Machine Learning", level: "Intermediate" },
   { name: "SPICE", level: "Intermediate" },
   { name: "Linux", level: "Intermediate" },
-  { name: "Git", level: "Intermediate" },
-  { name: "Java", level: "Beginner" }
+  { name: "Git", level: "Advanced" },
+  { name: "Java", level: "Intermediate" }
 ];
 
 const getLevelClass = (level) => {

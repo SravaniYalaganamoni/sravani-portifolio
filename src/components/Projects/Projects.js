@@ -3,15 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-// Existing project images
+// Project images
+import adaptiveMbist from "../../Assets/Projects/adaptive_mbist.png";
 import sramBist from "../../Assets/Projects/sram_bist.png";
 import firFilter from "../../Assets/Projects/fir_filter.png";
 import adder from "../../Assets/Projects/adder.png";
 import fpu from "../../Assets/Projects/fpu.png";
 import alu from "../../Assets/Projects/alu.png";
 import transistorAdder from "../../Assets/Projects/transistor_adder.png";
-
-// NEW: add these 3 images into: src/Assets/Projects/
 import mbist from "../../Assets/Projects/mbist.png";
 import niosGame from "../../Assets/Projects/heart_beat.png";
 import dcnn from "../../Assets/Projects/dcnn_matlab.png";
@@ -24,10 +23,24 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works</strong>
         </h1>
-        <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
+
+        <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {/* 1 */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={adaptiveMbist}
+              isBlog={false}
+              title="Fault-Feedback-Driven SRAM MBIST for Low-Power and Time-Efficient SoC Memory Validation"
+              description="Designed a power-aware adaptive Memory Built-In Self-Test (MBIST) architecture for 256×32 SRAM arrays. Developed March-based testing with fault-feedback-driven control to reduce redundant test cycles and switching activity. Modeled stuck-at, transition, coupling, and address decoder faults and performed RTL verification using ModelSim. Evaluated synthesis, timing, power, and DFT metrics using Synopsys Design Compiler and TetraMAX."
+              ghLink="https://github.com/SravaniYalaganamoni/Fault-Feedback-Driven-SRAM-MBIST-for-Low-Power-and-Time-Efficient-SoC-Memory-Validation"
+            />
+          </Col>
+
+          {/* 2 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sramBist}
@@ -38,7 +51,7 @@ function Projects() {
             />
           </Col>
 
-          {/* 2 */}
+          {/* 3 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={firFilter}
@@ -49,7 +62,7 @@ function Projects() {
             />
           </Col>
 
-          {/* 3 */}
+          {/* 4 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={adder}
@@ -60,7 +73,7 @@ function Projects() {
             />
           </Col>
 
-          {/* 4 */}
+          {/* 5 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={transistorAdder}
@@ -71,7 +84,7 @@ function Projects() {
             />
           </Col>
 
-          {/* 5 */}
+          {/* 6 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fpu}
@@ -82,7 +95,7 @@ function Projects() {
             />
           </Col>
 
-          {/* 6 */}
+          {/* 7 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={alu}
@@ -93,36 +106,36 @@ function Projects() {
             />
           </Col>
 
-          {/* 7 — NEW */}
+          {/* 8 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mbist}
               isBlog={false}
               title="A DCNN-Based Image Classification"
               description="Developed a deep convolutional neural network for fruit classification using MATLAB with custom CNN and pretrained models including ResNet-50 and SqueezeNet. Achieved high classification accuracy on Kaggle datasets."
-              ghLink="https://github.com/SravaniYalaganamoni/Adaptive-SRAM-MBIST"
+              ghLink="https://github.com/SravaniYalaganamoni/DCNN-Image-Classification-MATLAB"
             />
           </Col>
 
-          {/* 8 — NEW */}
+          {/* 9 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={niosGame}
               isBlog={false}
-              title="FPGA-Based Reaction Game using Nios-II Processor (DE1-SoC)"
-              description="Implemented an interrupt-driven reaction game on DE1-SoC FPGA using Nios-II soft processor, interval timers, pushbuttons, LEDs, and seven-segment displays with HAL drivers."
-              ghLink="https://github.com/SravaniYalaganamoni/Nios-II-Reaction-Game-DE1-SoC"
+              title="Heartbeat Monitor Simulator using Nios-II and RTOS"
+              description="Designed a real-time heartbeat monitoring simulator on the DE1-SoC FPGA using the Nios-II processor and MicroC/OS-II RTOS. Implemented interrupt-driven pulse detection, BPM calculation, seven-segment display output, and abnormal heart-rate alerts."
+              ghLink="https://github.com/SravaniYalaganamoni/Heartbeat-Monitor-Simulator-Using-Nios-II-and-RTOS"
             />
           </Col>
 
-          {/* 9 — NEW */}
+          {/* 10 */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dcnn}
               isBlog={false}
               title="Wine Quality Classification using ML"
-              description="Performed PCA, SVM, Decision Trees, and KNN on Kaggle wine dataset."
-              ghLink="https://github.com/SravaniYalaganamoni/DCNN-Image-Classification-MATLAB"
+              description="Performed PCA, SVM, Decision Trees, and KNN on Kaggle wine dataset to classify wine quality based on physicochemical features such as acidity, alcohol content, pH, residual sugar, and density."
+              ghLink="https://github.com/SravaniYalaganamoni/Wine-Quality-Classification-using-ML"
             />
           </Col>
         </Row>
